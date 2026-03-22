@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-label="Coffee background">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f2ec"/>
+      <stop offset="55%" stop-color="#efe3d6"/>
+      <stop offset="100%" stop-color="#dcc6b3"/>
+    </linearGradient>
+    <linearGradient id="cup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffaf5"/>
+      <stop offset="100%" stop-color="#eadbcc"/>
+    </linearGradient>
+    <linearGradient id="coffee" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a533d"/>
+      <stop offset="100%" stop-color="#4c2f22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)"/>
+  <circle cx="220" cy="160" r="160" fill="#ffffff" opacity=".32"/>
+  <circle cx="1380" cy="170" r="170" fill="#f4e8dc" opacity=".45"/>
+  <circle cx="1330" cy="840" r="180" fill="#ffffff" opacity=".24"/>
+  <circle cx="240" cy="820" r="130" fill="#e7d3c1" opacity=".34"/>
+  <g transform="translate(1030 250)">
+    <ellipse cx="0" cy="470" rx="230" ry="42" fill="#b89a84" opacity=".24"/>
+    <path d="M-140 210c0-24 18-42 42-42h196c24 0 42 18 42 42v166c0 72-58 130-130 130h-20c-72 0-130-58-130-130z" fill="url(#cup)"/>
+    <ellipse cx="0" cy="206" rx="132" ry="30" fill="url(#coffee)"/>
+    <path d="M145 240c44 0 78 34 78 78s-34 78-78 78h-14v-32h12c24 0 44-20 44-46 0-25-20-44-44-44h-12v-34z" fill="#efe0d2"/>
+    <path d="M-20 110c-20-34 16-56 0-92" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12" opacity=".60"/>
+    <path d="M28 96c-20-34 16-56 0-92" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12" opacity=".56"/>
+    <path d="M76 114c-20-34 16-56 0-92" fill="none" stroke="#fff" stroke-linecap="round" stroke-width="12" opacity=".52"/>
+  </g>
+  <g transform="translate(360 710)">
+    <ellipse cx="0" cy="95" rx="150" ry="28" fill="#b89a84" opacity=".20"/>
+    <path d="M-88 0h176l-24 70H-64z" fill="#d6b391" opacity=".95"/>
+    <circle cx="0" cy="-16" r="76" fill="#5b3929"/>
+    <circle cx="0" cy="-16" r="62" fill="#7a533d"/>
+  </g>
+  <g transform="translate(180 540) rotate(-14)">
+    <rect x="-18" y="-140" width="36" height="170" rx="18" fill="#b68156" opacity=".82"/>
+    <rect x="-105" y="22" width="210" height="34" rx="17" fill="#d7b08a" opacity=".88"/>
+    <rect x="-84" y="54" width="168" height="26" rx="13" fill="#a56e46" opacity=".78"/>
+  </g>
+</svg>
